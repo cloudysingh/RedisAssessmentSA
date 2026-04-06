@@ -7,6 +7,13 @@
 This setup demonstrates a Redis replication architecture deployed on Microsoft Azure using two Linux virtual machines within the same virtual network.
 
 ---
+## 🌐 Network Diagram
+
+![Network Diagram](images/network-diagram.png)
+
+---
+
+--
 
 ## 🏗️ Infrastructure Details
 
@@ -42,12 +49,6 @@ This setup demonstrates a Redis replication architecture deployed on Microsoft A
 * Data is written to **Redis OSS (Server A)**
 * Replication is configured to **Redis Enterprise (Server B)**
 * Both servers are in the same subnet, enabling low-latency internal communication
-
----
-
-## 🌐 Network Diagram
-
-![Network Diagram](images/network-diagram.png)
 
 ---
 
