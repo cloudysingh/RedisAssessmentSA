@@ -75,7 +75,7 @@ memtier-benchmark \
 --threads=4 \
 --requests=100000
 ```
-
+![Memtier Benchmark](screenshots/5-memtier-benchmark-progress.png)
 ### Observations:
 
 * Successfully loaded ≥100,000 keys
