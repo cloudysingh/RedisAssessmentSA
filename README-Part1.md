@@ -67,13 +67,7 @@ Used `memtier-benchmark` to generate and load test data.
 ### Command Used:
 
 ```
-memtier-benchmark \
---server=127.0.0.1 \
---port=6380 \
---protocol=redis \
---clients=50 \
---threads=4 \
---requests=100000
+memtier_benchmark -s 127.0.0.1 -p 6380 --protocol=redis --clients=10 --threads=2 --ratio=1:0 --data-size=100 --key-pattern=R:R --key-minimum=1 --key-maximum=100000 --requests=100000
 ```
 ### Observations:
 
